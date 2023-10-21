@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.profile {
+    margin-top: 100px;
+}
+
+#profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    
+}
+
+#upload-button {
+    display: block;
+    margin: 10px auto;
+    background-color: #1c9ccd; 
+    color: white;
+    width: 25%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#upload-button:hover {
+    background-color: #0056b3; 
+}
+
+#user-details {
+    margin: 20px auto;
+}
+
+.logout-btn {
+    height: 6.1%;
+    width: 11%;
+    border: none;
+    padding: 6px;
+    position: absolute;
+    right: 0;
+    margin-right: 10rem;
+    background-color: #ed3b3b;
+    border-radius: 3px;
+    color: white;
+}
+
+.logout-btn:hover {
+    background-color: #c52f2f;
+}
+
+.save-btn {
+    background-color: rgb(58, 211, 65);
+    border: none;
+    padding :8px;
+    width: 5.7%;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.save-btn:hover {
+    background-color: rgb(47, 188, 54);
+}

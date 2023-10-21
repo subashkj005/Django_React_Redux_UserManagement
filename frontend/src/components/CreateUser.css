@@ -1,0 +1,119 @@
+
+
+.create-container {	
+	margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  
+
+
+  .form-signin-heading,
+	h1 {
+	  font-weight: 600;
+	}
+
+	.checkbox {
+	  font-weight: normal;
+	}
+  
+  #upload {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  
+  .upload-btn {
+    position: absolute;
+    font-size: 50px;
+    opacity: 0;
+  }
+
+  .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .form-control:focus {
+    z-index: 2;
+  }
+
+	input[type="text"] {
+	  margin-bottom: 20px;
+	  border-bottom-left-radius: 0;
+	  border-bottom-right-radius: 0;
+	}
+
+	input[type="password"] {
+	  margin-bottom: 20px;
+	  border-top-left-radius: 0;
+	  border-top-right-radius: 0;
+	}
+}
+
+.form-signin input {
+ margin-bottom: 10px;   
+}
+
+.upload-section {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  /* Style the label for the file input */
+  .file-label {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  /* Style the file input to be hidden */
+  .upload-input {
+    display: none;
+  }
+  
+  /* Style the create button */
+  .create-button {
+    padding: 10px 20px;
+    background-color: #28A745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .delete-button {
+    padding: 10px 20px;
+    background-color: #cc3116;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .delete-button:hover {
+    background-color:#a02611 ;
+  }

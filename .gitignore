@@ -1,0 +1,6 @@
+backend/userCrud/db.sqlite3
+backend/userCrud/media/profile/images
+backend/userCrud/users/__pycache__
+backend/userCrud/users/__pycache__/views.cpython-311.pyc
+*.sqlite3
+__pycache__/
